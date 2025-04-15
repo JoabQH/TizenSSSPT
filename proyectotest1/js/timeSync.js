@@ -1,4 +1,4 @@
- window.TimeSync = {
+window.TimeSync = {
   init: function (config, onStatus) {
     const { expectedTimezone } = config;
     const apiUrl = 'https://ipinfo.io/json';
