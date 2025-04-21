@@ -2,18 +2,16 @@
 <widget 
         xmlns="http://www.w3.org/ns/widgets"
         xmlns:tizen="http://tizen.org/ns/widgets"
-        id="com.yourdomain.sssptimefixer"
+        id="com.tizenTimeFix.sssptimefixer"
         version="1.0.0"
         viewmodes="fullscreen">
 
-<<<<<<< Updated upstream
-  <tizen:profile name="tv"/>
-  <tizen:application id="com.yourdomain.timefixer" package="com.tizenTimeFix.timefixer" required_version="2.4"/>
+<tizen:profile name="tv"/>
+  <tizen:application id="com.tizenTimeFix.timefixer" package="com.tizenTimeFix.timefixer" required_version="2.4"/>
   <content src="index.html"/>
   <name>SSSP Time Fixer</name>
   <description>Corrige la hora automáticamente en pantallas Tizen</description>
   <icon src="icon.png"/>
-=======
   <name>SSSP Time Fixer</name>
   <description>Corrige automáticamente la hora en pantallas Samsung Tizen</description>
   <icon src="icon.png"/>
@@ -25,7 +23,7 @@
                      auto-relaunch="true"/>
 
   <tizen:profile name="tv"/>
->>>>>>> Stashed changes
+
 
   <tizen:setting screen-orientation="landscape"
                  context-menu="disable"
@@ -40,6 +38,13 @@
   <tizen:privilege name="http://tizen.org/privilege/time.set"/>
   <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
   <tizen:privilege name="http://tizen.org/privilege/application.read"/>
+=======
+<tizen:privilege name="http://tizen.org/privilege/time.set"/>
+<tizen:privilege name="http://tizen.org/privilege/internet"/>
+<tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+<tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>
+
+
 
   <tizen:feature name="http://tizen.org/feature/screen.size.all"/>
   <tizen:feature name="http://tizen.org/feature/network.internet"/>
